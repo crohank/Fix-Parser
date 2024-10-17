@@ -1,0 +1,82 @@
+/* Overall body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Light background */
+    color: #333; /* Dark text */
+  }
+  
+  /* Main container styles */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Logo */
+  .logo {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  form {
+    margin-bottom: 30px;
+  }
+  
+  textarea {
+    width: 80%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .submit-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Table styles */
+  .styled-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-size: 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .styled-table th, .styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .styled-table th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .styled-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .styled-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  

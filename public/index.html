@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIX Message Parser</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+  <div class="container">
+    <!-- Logo -->
+    <img src="logo.png" alt="App Logo" class="logo">
+
+    <h1>FIX Message Parser</h1>
+
+    <form id="fixForm" method="POST" action="/parse">
+      <textarea name="fixMessage" id="fixMessage" rows="10" cols="50" placeholder="Enter your FIX message"></textarea>
+      <br>
+      <button type="submit" class="submit-btn">Parse FIX Message</button>
+    </form>
+
+    <!-- Table to display parsed FIX message -->
+    <table id="parsedTable" class="styled-table">
+      <thead>
+        <tr>
+          <th>Field Number</th>
+          <th>Field Name</th>
+          <th>Value</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Parsed data will go here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script> <!-- Link to your JS file -->
+</body>
+</html>
